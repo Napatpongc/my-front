@@ -65,7 +65,7 @@ function TextInput() {
                     <p>{textInput2}</p>
                 <div/>
                 <div className="m">
-                    <p>CM</p>
+                    <p>M</p>
                 </div>
             </div>
         </div> 

@@ -3,7 +3,7 @@ import NAVBar from '../Components/NAVBar'
 import "../Components/NAVBar.css"
 import "./User.css"
 import { useNavigate } from 'react-router-dom'
-import "./Conf_Pass"
+
 import "./plan"
 import axios from "axios";
 
@@ -51,7 +51,10 @@ function User() {
                 <text>
                 Username: {userData.length > 0 ? userData[0].username : ''}
                 </text>
-                
+                <button1 onClick={() => navigate('Conf_Pass')} >
+                    <img src={box}></img>
+                    Change Password
+                </button1>
                 <button2 onClick={() => navigate('male')}>
                     <img src={box}></img>
                     Edit plan

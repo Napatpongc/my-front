@@ -52,11 +52,11 @@ function Conf_Pass() {
 
   return (
     <div><NAVBar/>
-        <div className='Container'>
-            <div className="Header">
+        <div className='Container1'>
+            <div className="Header1">
                 <h1>Register</h1>
                 </div>
-                <div className="Text">
+                <div className="Text1">
                     <text>Username</text>
             </div>
             <div className="inputs">

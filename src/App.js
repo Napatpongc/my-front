@@ -1,5 +1,5 @@
 import User from './pages/User';
-import Conf_Pass from './pages/Conf_Pass';
+//import Conf_Pass from './pages/Conf_Pass';
 import Table from './pages/Table';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
@@ -26,8 +26,7 @@ export function App() {
            <Route path='/Register/Male/Plan' element={<Plan/>} />
            <Route path='/Login/Plan/Table' element={<Table/>} />
            <Route path='/Register/Male/Plan/Table' element={<Table/>} />
-           <Route path='/Login/plan/User/Conf_Pass' element={<Conf_Pass/>} />
-           <Route path='/Register/male/plan/User/Conf_Pass' element={<Conf_Pass/>} />
+           
          </Routes>
        </Router>
       //<div><Home/></div>

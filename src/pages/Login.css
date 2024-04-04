@@ -1,9 +1,9 @@
-.container{
+.ontainer{
     display: inline;
     align-items: center;
 }
 
-.header{
+.Header{
     display: flex;
     justify-content: center;
     align-items: center;
