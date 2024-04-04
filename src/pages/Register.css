@@ -1,0 +1,153 @@
+.container{
+    display: inline;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_back{
+    display: inline;
+    background-color: #D22000;
+    color: #fff;
+    width: 200px;
+    height: 100px;
+    border-radius: 46px;
+    margin-left: 5%;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    left: -20px;
+    top: 40px;
+    justify-content: center; 
+    align-items: center;
+    
+    
+}
+
+.button_check{
+    cursor: pointer;
+    margin-left: 93%;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    top:-45px
+    
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.input{
+    z-index: 9999;  
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    background: #eaeaea;
+    border-radius: 6px;
+    gap: 25px;
+}
+body{
+    background-color: #C7CF99;
+}
+.Container{
+    background-color: #FFF;
+    width: 1000px;
+    height: 600px;
+    flex-shrink: 0;
+    position: relative;
+    left:780px;
+    border-radius:15px;
+    box-shadow: 0px 4px 20px 2px rgba(0, 0, 0, 0.50);
+  
+    
+
+}
+.Container .Header{
+    color: #D22000;
+    text-align: center;
+    font-family: Kanit;
+    font-size:30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top:10%;
+
+    
+}
+.Container .Text{
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left:-30%;
+    top:15%;
+    weight:10px;
+    flex-shrink: 0;
+    
+
+}
+.Container .Text2{
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left:-30%;
+    top: 60px;
+
+}
+.Container .Text3{
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left:-30%;
+    top: 60px;
+}
+.Container .input{
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Loginpng{
+    width: 140px;
+    height: 130px;
+    flex-shrink: 0;
+    position: relative;
+    left:48%;
+    top: -180px;
+
+}

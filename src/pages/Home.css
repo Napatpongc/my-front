@@ -1,0 +1,103 @@
+body {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      width: 1440px;
+      height: 1024px;
+      display: 'flex',     
+}
+
+.logo{
+      max-width: 10%;
+      height: auto;
+      border-radius:  50%;
+      margin-bottom: 10px;
+      position: absolute;
+      z-index: 9999;  
+      top: 450px;
+      left: 650px;
+      gap: 0px;
+      opacity: 0px;
+
+}
+
+.bg{
+      display: flex;
+      size: 100%;
+      width: 100%;
+      height: 100%;
+      gap: 0px;
+}
+
+.hi{
+      position: absolute;
+      top: 900px;
+      left:725px;
+      transform: translate(-50%, -50%);
+      width: 1440px;
+      height: 700px;
+      flex-shrink: 0;
+      background-color: #fff;
+      text-align: center;
+      padding-bottom: 0%;
+}
+.hi .w1{
+      color: #000;
+      font-family: Kanit;
+      font-size: 40px;
+      font-style: italic;
+      font-weight: 275;
+      line-height: 120%; /* 48px */
+      letter-spacing: 12px;
+      margin-top: 45px;
+      flex:100%;
+
+}
+.hi .w2{
+      color: #D22000;
+      font-family: Kanit;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 1%;
+      letter-spacing: 14.4px;
+      
+}
+.hi2{
+      color: #000;
+      text-align: center;
+      font-family: "Klee One";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%; /* 48px */
+      letter-spacing: 10px;
+}
+.hi2 .button1{
+      width: 200px;
+      height: 70px;
+      flex-shrink: 0;
+      border-radius: 61px;
+      background: #C7CF99;
+      text-align: center;
+      font-family: Kameron;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 7600;
+      line-height: normal;
+      right: center;      
+}
+.hi2 .button2{
+      width: 200px;
+      height: 70px;
+      flex-shrink: 0;
+      border-radius: 61px;
+      background: #C7CF99;
+      text-align: center;
+      font-family: Kameron;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 7600;
+      line-height: normal;
+}

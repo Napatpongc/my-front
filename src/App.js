@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import User from './pages/User';
+import Conf_Pass from './pages/Conf_Pass';
+import Table from './pages/Table';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/Login'
+import Register from './pages/Register'
+import Plan from './pages/plan'
+import Male from './pages/male'
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+       <Router>
+         <Routes>
+           <Route path='/' element={<Home/>} />
+           <Route path='/Login' element={<Login/>} />
+           <Route path='/Register' element={<Register/>} />
+           <Route path='/Login/Plan/User' element={<User/>} />
+           <Route path='/Register/Male/Plan/User' element={<User/>} />
+           <Route path='/Register/male/plan/User/male' element={<Male/>} />
+           <Route path='/Login/plan/User/male' element={<Male/>} />
+           <Route path='/Register/Male' element={<Male/>} />
+           <Route path='/Login/Plan' element={<Plan/>} />
+           <Route path='/Login/plan/User/male/plan' element={<Plan/>} />
+           <Route path='/Register/male/plan/User/male/plan' element={<Plan/>} />
+           <Route path='/Register/Male/Plan' element={<Plan/>} />
+           <Route path='/Login/Plan/Table' element={<Table/>} />
+           <Route path='/Register/Male/Plan/Table' element={<Table/>} />
+           <Route path='/Login/plan/User/Conf_Pass' element={<Conf_Pass/>} />
+           <Route path='/Register/male/plan/User/Conf_Pass' element={<Conf_Pass/>} />
+         </Routes>
+       </Router>
+      //<div><Home/></div>
   );
 }
 

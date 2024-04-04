@@ -1,0 +1,240 @@
+
+body{
+    overflow-x: hidden; /* ป้องกันการเลื่อนในแนวนอน */
+    overflow-y: auto; /* อนุญาตให้เลื่อนในแนวตั้ง */
+  }
+  
+.textGen{
+    top: 40px;
+    left: 0;
+    position :relative;
+    background: #C7CF99;
+    width: 100vw; 
+    height: 100vh; 
+}
+
+.textGen .text1{
+    top: 40px;
+    text-align: center;
+    position :relative;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.textGen .picMale{
+    
+    flex-shrink: 0;
+    top: 40px;
+    right: -150px;
+    position :relative
+}
+
+
+.textGen .picFemale{
+    
+    flex-shrink: 0;
+    top: -520px;
+    right: -750px;
+    position :relative
+}
+
+.textGen .butMale{
+    top: 70px;
+    right: -310px;
+    position :relative;
+    flex-shrink: 0;
+    color: #D22000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 61px;
+    background: #FA0;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.textGen .butFemale{
+    top: -507px;
+    right: -896px;
+    position :relative;
+    flex-shrink: 0;
+    color: #D22000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 61px;
+    background: #FA0;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}   
+
+.Input{
+    top: 140px;
+    right: -290px;
+    position :relative;
+    width: 55vw; 
+    height: 70vh; 
+    fill: #FFF;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.60));
+    background: #FFF;
+    border-radius: 10px;
+}
+
+.Input .Weight .w{
+    top: 90px;
+    right: -80px;
+    position :relative;
+    color: #000;
+    font-family: Kanit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Input .Weight .k{
+    top: -125px;
+    right: -200px;
+    position :relative;
+    color: #000;
+    font-family: Kanit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Input .Weight .t1{
+    top: -145px;
+    right: -250px;
+    position :relative;
+    fill: #D9D9D9;
+    
+      
+}
+
+.Input .Height .h{
+    top: -150px;
+    right: 219px;
+    position :relative;
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Input .Height .t2{
+    top: -150px;
+    right: -225px;
+    position :relative;
+    fill: #D9D9D9;   
+}
+
+.Input .Height .m{
+    top: -120px;
+    right: -150px;
+    position :relative;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Input .Age .a{
+    top: -390px;
+    right: 250px;
+    position :relative;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.Input .Age .t3{
+    top: -140px;
+    right: -255px;
+    position :relative;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Input .Age .y{
+    color: #000;
+    top: -120px;
+    right: -240px;
+    position :relative;
+    font-family: Kanit;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+
+.task {
+    top: -700px;
+    right: -960px;
+    position :relative;
+    
+    display: flex;
+    width: 140px;
+    height: 230px;
+    transform: rotate(15deg);
+    
+   
+}
+
+.ok{
+    top: 200px;
+    right: -1220px;
+    display: flex;
+    position :relative;
+    width: 40px;
+    height: 90px;
+    
+    
+}
+
+.back{
+    top: -120px;
+    right: -100px;
+    position :relative;
+    color: #FFF;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 46px;
+    background: #D22000;
+    width: 155px; 
+    height: 95px;
+}
+

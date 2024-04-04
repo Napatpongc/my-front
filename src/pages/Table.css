@@ -1,0 +1,90 @@
+.Header{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    width: 94.75%;
+    height: 100%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.Text{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.Box {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    background-color: #FFF177;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input{
+    background: #c7cf99;
+}
+
+.input input{
+    color: #000;
+    background: #c7cf99;
+}
+
+.input2 .input{
+    align-items: center;
+    color: #000;
+    background: #fff;
+    border: auto;
+    border-radius: 5px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 35px;
+    color: #fff;
+    background: #d22000;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

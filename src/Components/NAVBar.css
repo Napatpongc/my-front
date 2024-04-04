@@ -1,0 +1,38 @@
+.NAVBar{
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.NAVBar .leftSide{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    margin-top: 2px;
+}
+
+.NAVBar .leftSide img{
+    width: 120px;
+}
+
+.NAVBar .middle{
+    flex: auto;
+    align-items: center;
+    flex: 84%;
+    height: 100%;
+    margin-top: 35px;
+}
+
+.NAVBar .middle .Underline{
+    flex: auto;
+    align-items: center;
+    flex: 84%;
+    width: 200px;
+    height: 3px;
+    margin-top: 20px;
+    background: #c49723;
+}
